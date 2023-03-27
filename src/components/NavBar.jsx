@@ -57,7 +57,7 @@ export default function NavBar() {
             </li>
           ))}
           <button className="font-bold bg-primary-500 p-4 rounded hover:bg-primary-100">
-            Start your project
+            Manage My DM's
           </button>
         </ul>
         <div className="md:hidden flex flex-1 justify-end items-center">
