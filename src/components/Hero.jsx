@@ -2,7 +2,10 @@ import { hero } from "../assets";
 
 export default function Hero() {
   return (
-    <div className="flex mt-40 flex-col md:px-32 px-8 w-full justify-between lg:items-start items-center text-center md:text-left md:flex-row font-nunito">
+    <div
+      id="home"
+      className="flex mt-40 flex-col md:px-32 px-8 w-full justify-between lg:items-start items-center text-center md:text-left md:flex-row font-nunito"
+    >
       <div className="md:w-1/2 lg:pr-24 mt-20">
         <h1 className="lg:text-7xl text-5xl font-bold text-primary-500">
           Manage your DM's with Ease
@@ -17,7 +20,7 @@ export default function Hero() {
       </div>
       <img
         src={hero}
-        className="object-cover max-w-full max-h-screen md:w-1/2 "
+        className="object-contain max-w-full max-h-screen md:w-1/2 "
       />
     </div>
   );

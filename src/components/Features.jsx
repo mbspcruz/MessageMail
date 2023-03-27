@@ -13,7 +13,7 @@ const FeatureCard = ({ index, title, subtitle, icon }) => (
 
 export default function Features() {
   return (
-    <div className="max-w-full max-h-fit bg-primary-95 md:px-32 px-8 py-20">
+    <div id="about" className="max-w-full bg-primary-95 md:px-32 px-8 py-20">
       <h2 className="font-nunito text-2xl font-bold text-primary-25">
         What we offer
       </h2>

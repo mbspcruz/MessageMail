@@ -46,12 +46,15 @@ export default function NavBar() {
           {navLinks.map((nav) => (
             <li
               key={nav.id}
+              href={nav.id}
               className={`${
                 active === nav.title
                   ? "text-primary-500 font-bold"
                   : "text-black font-semibold"
               } hover:text-primary-100 cursor-pointer`}
-              onClick={() => setActive(nav.title)}
+              onClick={() => {
+                setActive(nav.title);
+              }}
             >
               <a href={`#${nav.id}`}>{nav.title}</a>
             </li>

@@ -21,7 +21,7 @@ const TestimonialCard = ({ index, name, review, icon }) => (
         <h3 className="font-bold text-lg text-primary-25 mb-4">{name}</h3>
         <p className="text-sm text-primary-75">{review}</p>
       </div>
-      <div class="flex justify-center mt-4">
+      <div className="flex justify-center mt-4">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="18"
@@ -84,10 +84,10 @@ const TestimonialCard = ({ index, name, review, icon }) => (
 
 export default function Testimonials() {
   return (
-    <div className="md:px-32 px-8 pt-20 font-nunito">
+    <div id="reviews" className="md:px-32 px-8 py-20 font-nunito">
       <h2 className="text-2xl font-bold text-primary-25">Testimonials</h2>
       <div>
-        <img src={ellipse} className="absolute" />
+        <img src={ellipse} className=" left-0 absolute" />
         <div className="relative mt-20 grid lg:grid-cols-3 grid-flow-row">
           {testimonials.map((testimonial, index) => (
             <TestimonialCard
@@ -98,6 +98,9 @@ export default function Testimonials() {
           ))}
         </div>
       </div>
+      <button className="font-bold bg-primary-500 p-4 rounded hover:bg-primary-100 text-white w-full lg:w-1/3 mx-auto flex justify-center my-40">
+        Manage My DM's
+      </button>
     </div>
   );
 }

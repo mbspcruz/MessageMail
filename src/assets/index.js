@@ -10,6 +10,12 @@ import janeDoe from "./janeDoe.jpg";
 import johnDoe from "./johnDoe.jpg";
 import violet from "./violet.jpg";
 import ellipse from "./ellipse.svg";
+import sm_logo_white from "./sm_logo_white.svg";
+import twitter from "./twitter.svg";
+import facebook from "./facebook.svg";
+import phone from "./phone.svg";
+import location from "./location.svg";
+import email from "./email.svg";
 
 export {
   menu,
@@ -24,4 +30,10 @@ export {
   johnDoe,
   violet,
   ellipse,
+  sm_logo_white,
+  twitter,
+  facebook,
+  phone,
+  location,
+  email,
 };

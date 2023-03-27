@@ -5,6 +5,11 @@ import {
   janeDoe,
   johnDoe,
   violet,
+  facebook,
+  twitter,
+  location,
+  phone,
+  email,
 } from "../assets";
 
 export const navLinks = [
@@ -13,12 +18,12 @@ export const navLinks = [
     title: "Home",
   },
   {
-    id: "services",
-    title: "Our Services",
+    id: "about",
+    title: "About",
   },
   {
-    id: "contact",
-    title: "Contact",
+    id: "reviews",
+    title: "Reviews",
   },
 ];
 
@@ -62,7 +67,37 @@ const testimonials = [
   },
 ];
 
-export { features, testimonials };
+const social = [
+  {
+    id: "facebook",
+    name: "Facebook",
+    icon: facebook,
+  },
+  {
+    id: "twitter",
+    name: "Twitter",
+    icon: twitter,
+  },
+];
+
+const contacts = [
+  {
+    id: "phone",
+    name: "012-341-560",
+    icon: phone,
+  },
+  {
+    id: "email",
+    name: "hola@sup.com",
+    icon: email,
+  },
+  {
+    id: "address",
+    name: "123 Random St., 111-098 US",
+    icon: location,
+  },
+];
+export { features, testimonials, social, contacts };
 
 /* <a href="https://www.flaticon.com/free-icons/sms" title="sms icons">Sms icons created by Freepik - Flaticon</a>
 <a href="https://www.flaticon.com/free-icons/paper-plane" title="paper plane icons">Paper plane icons created by Freepik - Flaticon</a>
