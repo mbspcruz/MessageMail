@@ -1,3 +1,4 @@
+import { ButtonForm } from ".";
 import { ellipse } from "../assets";
 import { testimonials } from "../constants";
 
@@ -98,9 +99,9 @@ export default function Testimonials() {
           ))}
         </div>
       </div>
-      <button className="font-bold bg-primary-500 p-4 rounded hover:bg-primary-100 text-white w-full lg:w-1/3 mx-auto flex justify-center my-40">
-        Manage My DM's
-      </button>
+      <div className="w-full lg:w-1/3 mx-auto flex justify-center my-40">
+        <ButtonForm />
+      </div>
     </div>
   );
 }

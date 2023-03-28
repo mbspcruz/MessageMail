@@ -3,7 +3,7 @@ import { contacts, navLinks, social } from "../constants";
 
 export default function Footer() {
   return (
-    <footer className="relative max-w-full bg-primary-25 ">
+    <footer className="relative max-w-full bg-primary-25 font-nunito">
       <div className="flex md:justify-between md:px-32 px-8 py-20 md:flex-row flex-col justify-center items-center ">
         <img src={sm_logo_white} />
         <div>

@@ -16,6 +16,7 @@ import facebook from "./facebook.svg";
 import phone from "./phone.svg";
 import location from "./location.svg";
 import email from "./email.svg";
+import bg from "./bg.svg";
 
 export {
   menu,
@@ -36,4 +37,5 @@ export {
   phone,
   location,
   email,
+  bg,
 };

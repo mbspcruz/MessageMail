@@ -14,7 +14,7 @@ import {
 
 export const navLinks = [
   {
-    id: "home",
+    id: "/",
     title: "Home",
   },
   {
@@ -97,7 +97,26 @@ const contacts = [
     icon: location,
   },
 ];
-export { features, testimonials, social, contacts };
+
+const forms = [
+  {
+    id: "name",
+    name: "First Name",
+    label: "Please enter you first name",
+  },
+  {
+    id: "email",
+    name: "Email Adress",
+    label: "Please enter your email",
+  },
+  {
+    id: "password",
+    name: "Password",
+    label: "Please enter you password",
+  },
+];
+
+export { features, testimonials, social, contacts, forms };
 
 /* <a href="https://www.flaticon.com/free-icons/sms" title="sms icons">Sms icons created by Freepik - Flaticon</a>
 <a href="https://www.flaticon.com/free-icons/paper-plane" title="paper plane icons">Paper plane icons created by Freepik - Flaticon</a>

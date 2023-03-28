@@ -2,6 +2,8 @@ import React, { useEffect, useState } from "react";
 import { navLinks } from "../constants";
 import { animateScroll as scroll } from "react-scroll";
 import { menu, close, logo, sm_logo } from "../assets";
+import { ButtonForm } from ".";
+import { Link } from "react-router-dom";
 
 export default function NavBar() {
   const [active, setActive] = useState("");
@@ -56,12 +58,10 @@ export default function NavBar() {
                 setActive(nav.title);
               }}
             >
-              <a href={`#${nav.id}`}>{nav.title}</a>
+              <Link to={`#${nav.id}`}>{nav.title}</Link>
             </li>
           ))}
-          <button className="font-bold bg-primary-500 p-4 rounded hover:bg-primary-100">
-            Manage My DM's
-          </button>
+          <ButtonForm />
         </ul>
         <div className="md:hidden flex flex-1 justify-end items-center">
           <img
@@ -86,12 +86,10 @@ export default function NavBar() {
                   } hover:text-primary-100 cursor-pointer`}
                   onClick={() => setActive(nav.title)}
                 >
-                  <a href={`#${nav.id}`}>{nav.title}</a>
+                  <Link to={`#${nav.id}`}>{nav.title}</Link>
                 </li>
               ))}
-              <button className="font-bold bg-primary-500 p-4 rounded hover:bg-primary-100">
-                Start your project
-              </button>
+              <ButtonForm />
             </ul>
           </div>
         </div>
