@@ -39,7 +39,7 @@ export default function Form() {
           >
             <span className="sr-only">Close menu</span>
             <svg
-              className="h-6 w-6"
+              className="lg:h-6 lg:w-6 h-3 w-3"
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
               viewBox="0 0 24 24"

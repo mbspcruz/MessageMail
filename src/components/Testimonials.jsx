@@ -5,7 +5,7 @@ import { testimonials } from "../constants";
 const TestimonialCard = ({ index, name, review, icon }) => (
   <div>
     <div
-      className={`bg-white p-6 font-nunito px-20 h-full ${
+      className={`bg-white p-6 font-nunito h-full ${
         name === "Jane Doe"
           ? "lg:border-l-0 lg:border-b-0"
           : "lg:border-l lg:border-b-0"
@@ -99,7 +99,7 @@ export default function Testimonials() {
           ))}
         </div>
       </div>
-      <div className="w-full lg:w-1/3 mx-auto flex justify-center my-40">
+      <div className="w-full lg:w-1/2 mx-auto flex justify-center my-40">
         <ButtonForm />
       </div>
     </div>

@@ -11,7 +11,7 @@ export default function Hero() {
         <h1 className="lg:text-7xl text-5xl font-bold text-primary-25">
           Manage your DM's with Ease
         </h1>
-        <h2 className="lg:text-2xl text-xl mt-8 pr-10 text-primary-25">
+        <h2 className="lg:text-2xl text-xl mt-8 lg:pr-10 text-primary-25">
           We offer you a central location to manage all of your social media
           account's direct messages!
         </h2>
